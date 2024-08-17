@@ -37,8 +37,7 @@ VITE_FIREBASE_MESSAGING_SENDER_ID=<Your Firebase Messaging Sender ID>
 VITE_FIREBASE_APP_ID=<Your Firebase App ID>
 Run the application:
 
-bash
-Copy code
+
 npm run dev
 Access the application:
 Open your browser and navigate to http://localhost:5173.
@@ -76,8 +75,7 @@ DB_USER=<Your MongoDB Username>
 DB_PASS=<Your MongoDB Password>
 Run the server:
 
-bash
-Copy code
+
 npm start
 Access the API:
 The backend server will run on http://localhost:<Port Number>.
@@ -85,7 +83,7 @@ The backend server will run on http://localhost:<Port Number>.
 Deployment
 The backend can be deployed using services like Heroku, Render, or Vercel.
 
-Technologies Used
+Technology Used Frontend: React, React Router Backend: Node.js, Express, MongoDB for database, Firebase for file storage and authentication
 Node.js
 Express.js
 MongoDB (Atlas)
